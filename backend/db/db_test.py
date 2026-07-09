@@ -91,8 +91,8 @@ def seed_data():
     session.close()
 
 #seed_data()
-add_booking(1, 2, datetime(2027, 8, 8, 20, 28, 35))
-add_favorite(1, 1)
+#add_booking(1, 2, datetime(2027, 8, 8, 20, 28, 35))
+#add_favorite(1, 1)
 
 print_table(Users)
 print_table(Studios)

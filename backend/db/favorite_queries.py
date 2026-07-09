@@ -32,3 +32,4 @@ def get_favorites_for_user(user_id):
     s.close()
     return favorites
 
+

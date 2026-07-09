@@ -5,7 +5,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 # database connection
-engine = db.create_engine("sqlite:///fitness_app.db")
+engine = db.create_engine("sqlite:///recovery_hub.db")
 Base = declarative_base()
 
 
@@ -13,7 +13,7 @@ Base = declarative_base()
 
 
 '''
-conn = sqlite3.connect('fitness_app')
+conn = sqlite3.connect('recovery_hub')
 c = conn.cursor()
 
 def create_tables():

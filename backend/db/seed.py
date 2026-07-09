@@ -23,6 +23,7 @@ for s in studios:
         source_place_id=s["source_place_id"],
         category_tags=s["category_tags"],
     )
+    # also create mock services
     session.add(studio)
 
 session.commit()
